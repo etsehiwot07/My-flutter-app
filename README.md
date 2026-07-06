@@ -1,17 +1,34 @@
-# perfume_shop
+# 🛍️ Perfume Shop App
 
-A new Flutter project.
+A Flutter shopping app for browsing and purchasing perfumes, built with a clean UI and multiple user experience features.
+
+## Features
+
+- 🛒 Browse a catalog of perfumes and add items to cart
+- 🌗 Light and dark mode support
+- 🌍 Multilingual support — English, Amharic, and Turkish
+- 🛍️ Cart management
+
+## Built With
+
+- [Flutter](https://flutter.dev/) — UI framework
+- Dart — programming language
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repo
+```bash
+   git clone https://github.com/etsehiwot07/My-flutter-app.git
+```
+2. Install dependencies
+```bash
+   flutter pub get
+```
+3. Run the app
+```bash
+   flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+_Coming soon_
