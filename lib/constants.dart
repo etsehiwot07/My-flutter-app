@@ -42,7 +42,13 @@ class constant{
     fontWeight: FontWeight.bold,
     color: Colors.white,
   );
-
+  static final perfume_text = TextStyle(
+    fontSize: 36,
+    fontWeight: FontWeight.bold,
+  );
+  static final e_button = TextStyle(
+    fontSize: 20,
+  );
   static final basket = TextStyle(
     fontSize: 25,
     color: Color(0xFF6B705C),

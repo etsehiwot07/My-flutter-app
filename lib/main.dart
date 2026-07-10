@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import 'package:perfume_shop/cart_provider.dart';
 import 'package:perfume_shop/screens/cart_page.dart';
 import 'package:perfume_shop/screens/profile_page.dart';
+import 'package:perfume_shop/screens/splash_screen.dart';
 void main() {
   runApp(MultiProvider(
     providers: [
@@ -37,7 +38,8 @@ class perfume extends StatelessWidget {
       themeMode: themeProvider.isDarkMode ? ThemeMode.dark : ThemeMode.light,
       initialRoute: '/',
       routes: {
-        '/': (context) =>mainscreen(),
+        '/': (context) => SplashScreen(),
+        '/main':(context) => mainscreen(),
         '/categories': (context) => secondscreen(),
         '/cart': (context) => CartScreen(),
         '/profile': (context) => ProfileScreen(),
