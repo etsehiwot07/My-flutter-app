@@ -27,13 +27,24 @@ class SplashScreen extends StatelessWidget {
               const SizedBox(height:33),
               ElevatedButton(
                   onPressed:() {
-                    Navigator.pushReplacementNamed(context, '/main');
+                    Navigator.pushReplacementNamed(context, '/signup');
                   },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
                   foregroundColor: Colors.black
                 ),
-                  child:Text("Get Started",style: constant.e_button,) ,
+                  child:Text("Sign up",style: constant.e_button,) ,
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                  onPressed:(){
+                    Navigator.pushReplacementNamed(context, '/signin');
+                  },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  foregroundColor: Colors.black,
+                ),
+                child: Text("Sign in",style: constant.e_button,),
               )
 
             ],

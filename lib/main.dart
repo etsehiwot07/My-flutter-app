@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:perfume_shop/screens/mainscreen.dart';
 import 'package:perfume_shop/screens/second_screen.dart';
+import 'package:perfume_shop/screens/signin_screen.dart';
+import 'package:perfume_shop/screens/signup_screen.dart';
 import 'package:perfume_shop/theme.dart';
 import 'package:provider/provider.dart';
 import 'package:perfume_shop/cart_provider.dart';
@@ -40,6 +42,8 @@ class perfume extends StatelessWidget {
       routes: {
         '/': (context) => SplashScreen(),
         '/main':(context) => mainscreen(),
+        '/signin':(context) => signin(),
+        '/signup':(context) => signup(),
         '/categories': (context) => secondscreen(),
         '/cart': (context) => CartScreen(),
         '/profile': (context) => ProfileScreen(),
