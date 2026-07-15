@@ -88,4 +88,8 @@ class constant{
     fontFamily: 'CormorantGaramond',
     fontWeight: FontWeight.bold,
   );
+  static final createaccount = TextStyle(
+    fontSize: 28,
+    fontWeight: FontWeight.bold,
+  );
 }
