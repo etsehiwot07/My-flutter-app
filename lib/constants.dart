@@ -91,5 +91,6 @@ class constant{
   static final createaccount = TextStyle(
     fontSize: 28,
     fontWeight: FontWeight.bold,
+    color: Color(0xFF2E7D32),
   );
 }
